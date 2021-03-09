@@ -1424,6 +1424,19 @@ public extension DrawerView {
     }
 }
 
+public extension DrawerView {
+	func setBackgroundColor(to backgroundColor: UIColor) {
+		backgroundView.backgroundColor = backgroundColor
+	}
+
+	func setCornerRadius(to cornerRadius: CGFloat) {
+		self.cornerRadius = cornerRadius
+	}
+
+	func setBorderColor(to borderColor: UIColor) {
+		self.borderColor = borderColor
+	}
+}
 
 // MARK: - Private Extensions
 
